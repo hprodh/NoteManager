@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding-top: 50px;
+}
+
+.divnote {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  overflow: scroll;
+  resize: both;
+  max-width: 800px;
+  max-height: 600px;
+  min-width: 50px;
+  min-height: 50px;
+  /* background-color: skyblue; */
+}
+
+.divnotehand {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+  display: flex;
+  text-align:center;
+  align-items: center;
+}
+
+.handtitle {
+  width: 100%;
+}
+
+div button {
+    float: right;
+}
+
+.buttonedit {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 5px;
+  float : right;
+}
+
+#divtitle {
+    background: #f56b2a;
+    width:100%;
+    text-align:center;
+    position: fixed;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #fff;
+    top: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ghost-div.left {
+    margin-right: auto;
+}
+
+.ghost-div.right {
+    margin-left: auto;
+}
+
+.divbuttonright {
+    z-index: 11;
+    float: right;
+    margin-left: auto;
+}
+
+.divbuttonleft {
+    z-index: 11;
+    float: left;
+    margin-right: auto;
+}
+
+.divbuttonright input {
+    background-color: #773415;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.divbuttonleft button {
+    background-color: #773415;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+
+#divconn {
+    z-index: 11;
+    display: flex;
+    width: 48%;
+    float: right;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#divconn form {
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;margin-top: 15px;
+    padding: 20px;
+    background-color: #f56b2a;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#divconn form .input-line {
+    margin-bottom: 10px;
+}
+
+#divconn form .input-line input {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#divconn form input[type="button"] {
+    background-color: #773415;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+#divlist {
+    z-index: 11;
+    display: flex;
+    width: 48%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#divlist form {
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #f56b2a;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#divlist form .input-line {
+    margin-bottom: 10px;
+}
+
+#divlist form .input-line input {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#divlist form input[type="button"] {
+    background-color: #773415;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
